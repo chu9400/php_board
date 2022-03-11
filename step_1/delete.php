@@ -32,7 +32,6 @@
         $sql = "SELECT * FROM msg_board";
         $result = mysqli_query($conn, $sql);
 
-        print_r($result);
 
         $list = '';
         while($row = mysqli_fetch_array($result)) {
