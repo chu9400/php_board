@@ -35,8 +35,7 @@ header('location:주소');
 function redirect($url) {
         header("Location:$url");
 }
-
-## 이렇게 사용한다면 "" 을써줘야 변수로 인식함
+이렇게 사용한다면 "" 을써줘야 변수로 인식함
 
 ### 종료
 
