@@ -45,7 +45,9 @@ function redirect($url) {
 ### 종료
 
 exit(); - 에러 메세지 출력 안함
+
 die(); - 에러 메세지 출력
+
 sleep (); 시간을 주고 종료
 
 ---
