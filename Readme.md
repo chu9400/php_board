@@ -24,6 +24,7 @@ useSSL = 0
 ##### filter_input() 함수
 
 $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+
     if(!$email) {
         $status = '이메일 형식에 맞게 입력해주세요.';
     }
