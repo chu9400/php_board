@@ -17,7 +17,7 @@ Use SSl 클릭 후 Require 선택.
 useSSL = 0
 입력
 
-해결.
+## 해결.
 
 ### php에서 이메일 검증
 
