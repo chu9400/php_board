@@ -28,14 +28,19 @@ $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
         $status = '이메일 형식에 맞게 입력해주세요.';
     }
 
-###이지 이동 함수
+--- 
+
+### 페이지 이동 함수
 header('location:주소');
 
 만약
 function redirect($url) {
     header("Location:$url");
 }
+
+
 이렇게 사용한다면 "" 을써줘야 변수로 인식함
+
 
 ### 종료
 
